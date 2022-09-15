@@ -22,8 +22,8 @@ n1 = EnterCheckNumber()
 list1 = []
 Element(list1, n1)
 print(list1)
-Sum1 = 0
+Sum = 0
 for i in range(len(list1)):
     if i%2 != 0:
-        Sum1 += list1[i]
-print('Sum =', Sum1)
+        Sum += list1[i]
+print('Sum is', Sum)
