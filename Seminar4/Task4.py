@@ -16,7 +16,7 @@ import random
 print("k = ")
 k4 = EnterCheckNumber()
 for i in range(k4, -1, -1):
-    file = open('text.txt', 'a', encoding='utf-8')
+    file = open('file.txt', 'a', encoding='utf-8')
     if i == k4:
         k = random.randint(1,100)
         file.write(f'{k} * x^{i} ')
